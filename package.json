@@ -1,0 +1,28 @@
+{
+  "name": "apollonia_dental_practice_mern_repo",
+  "version": "1.0.0",
+  "description": "Apollania detal Practice web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Meghavi-Patel/apollonia_dental_practice_MERN_repo.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Meghavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meghavi-Patel/apollonia_dental_practice_MERN_repo/issues"
+  },
+  "homepage": "https://github.com/Meghavi-Patel/apollonia_dental_practice_MERN_repo#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  }
+}
