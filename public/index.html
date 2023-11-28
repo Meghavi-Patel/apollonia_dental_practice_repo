@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apollonia Employee Management</title>
+</head>
+<body>
+    <h1>Employee Management</h1>
+
+    <div>
+        <h2>Employees</h2>
+        <ul id="employeesList"></ul>
+        <form id="employeeForm">
+            <label for="employeeName">Name:</label>
+            <input type="text" id="employeeName" required>
+
+            <label for="employeePosition">Position:</label>
+            <input type="text" id="employeePosition" required>
+
+            <label for="employeeDepartment">Department:</label>
+            <input type="text" id="employeeDepartment" required>
+
+            <button type="button" onclick="addEmployee()">Add Employee</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Departments</h2>
+        <ul id="departmentsList"></ul>
+        <form id="departmentForm">
+            <label for="departmentName">Name:</label>
+            <input type="text" id="departmentName" required>
+
+            <label for="departmentLocation">Location:</label>
+            <input type="text" id="departmentLocation" required>
+
+            <button type="button" onclick="addDepartment()">Add Department</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
